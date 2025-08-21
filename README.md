@@ -23,7 +23,3 @@
 | `bilalezafar/CBDC-Sentiment`   | 3-class sentiment (Positive, Neutral, Negative).               | Tone analysis in central bank communications.            | [CBDC-Sentiment](https://huggingface.co/bilalezafar/CBDC-Sentiment)     |
 | `bilalezafar/CBDC-Type`        | Classifies Retail, Wholesale, General CBDC mentions.           | Distinguishing policy focus (retail vs wholesale).       | [CBDC-Type](https://huggingface.co/bilalezafar/CBDC-Type)               |
 | `bilalezafar/CBDC-Discourse`   | 3-class discourse classifier (Feature, Process, Risk-Benefit). | Structured categorization of CBDC communications.        | [CBDC-Discourse](https://huggingface.co/bilalezafar/CBDC-Discourse)     |
-
----
-* 📊 A **diagram image** (flow: CentralBank-BERT → downstream models),
-* 📌 Or keep the README **purely tabular**?
