@@ -1,4 +1,16 @@
-# 📘 README.md
+
+# 📘 Central Bank Digital Currency (CBDC) – NLP Models and Pipelines
+
+This repository contains a suite of **transformer-based models and training pipelines** designed for the analysis of Central Bank Digital Currency (CBDC) discourse. Built on top of a domain-adapted BERT model [CentralBank-BERT](https://huggingface.co/bilalezafar/CentralBank-BERT), these pipelines enable classification of CBDC-related text into multiple dimensions such as **CBDC detection, stance, sentiment, type, and discourse features**. The project covers **end-to-end workflows** including:
+
+* **Data preprocessing** and annotation files,
+* **Fine-tuning pipelines** for each classification task,
+* **Evaluation scripts and visualizations**,
+* **Released Hugging Face models** for downstream deployment.
+
+The goal is to provide a reproducible and extensible resource for **policy researchers, economists, and NLP practitioners** studying CBDCs in speeches, reports, and media articles.
+
+---
 
 ## 🔹 Repository Structure
 
@@ -21,9 +33,9 @@
 
 ---
 
-## Hugging Face Models
+## 🤗 Hugging Face Models
 
-| **Model**                      | **Purpose (Description)**                                      | **Intended Use**                                         | **Model Link**                                                          |
+| **Model**                      | **Purpose**                                      | **Intended Use**                                         | **Model Link**                                                          |
 | ------------------------------ | -------------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- |
 | `bilalezafar/CentralBank-BERT` | Domain-adaptive masked LM trained on BIS speeches (1996–2024). | Base encoder for CBDC downstream tasks; fill-mask tasks. | [CentralBank-BERT](https://huggingface.co/bilalezafar/CentralBank-BERT) |
 | `bilalezafar/CBDC-BERT`        | Binary classifier: CBDC vs Non-CBDC.                           | Flagging CBDC-related discourse in large corpora.        | [CBDC-BERT](https://huggingface.co/bilalezafar/CBDC-BERT)               |
