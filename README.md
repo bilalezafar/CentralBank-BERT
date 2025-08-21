@@ -29,7 +29,7 @@ The goal is to provide a reproducible and extensible resource for **policy resea
 | `5-CBDC-Type`               | `cbdc-type.ipynb`                  | Pipeline for **CBDC type classification** (Retail, Wholesale, General). Implements weighted class balancing for smaller wholesale set.                                                                           |
 |                             | `cbdc_type_training.csv`           | Dataset (n≈1,417 sentences; Retail 543 / Wholesale 228 / General 646).                                                                                                                                           |
 | `6-CBDC-Discourse`          | `cbdc-discourse.ipynb`             | Pipeline for **CBDC discourse categorization** (Feature, Process, Risk-Benefit). Includes unweighted training and evaluation with class metrics.                                                                 |
-|                             | `cbdc_classification_training.csv` | Training dataset (n≈2,886 sentences; Feature \~1,107 / Process \~1,150 / Risk-Benefit \~629).                                                                                                                    |
+|                             | `cbdc_classification_training.csv` | Training dataset 2,886 sentences (962 per class); Feature / Process / Risk-Benefit.                                                                                                                    |
 
 ---
 
