@@ -1,7 +1,7 @@
 
 # 📘 Central Bank Digital Currency (CBDC) – NLP Models and Pipelines
 
-This repository contains a suite of **transformer-based models and training pipelines** designed for the analysis of Central Bank Digital Currency (CBDC) discourse. Built on top of a domain-adapted BERT model [CentralBank-BERT](https://huggingface.co/bilalezafar/CentralBank-BERT), these pipelines enable classification of CBDC-related text into multiple dimensions such as **CBDC detection, stance, sentiment, type, and discourse features**. The project covers **end-to-end workflows** including:
+This repository contains a suite of **transformer-based models and training pipelines** designed for the analysis of Central Bank Digital Currency (CBDC) discourse. Built on top of a domain-adapted BERT model [CentralBank-BERT](https://huggingface.co/bilalzafar/CentralBank-BERT), these pipelines enable classification of CBDC-related text into multiple dimensions such as **CBDC detection, stance, sentiment, type, and discourse features**. The project covers **end-to-end workflows** including:
 
 * **Data preprocessing** and annotation files,
 * **Fine-tuning pipelines** for each classification task,
@@ -37,12 +37,12 @@ The goal is to provide a reproducible and extensible resource for **policy resea
 
 | **Model**                      | **Purpose**                                      | **Intended Use**                                         | **Model Link**                                                          |
 | ------------------------------ | -------------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- |
-| `bilalezafar/CentralBank-BERT` | Domain-adaptive masked LM trained on BIS speeches (1996–2024). | Base encoder for CBDC downstream tasks; fill-mask tasks. | [CentralBank-BERT](https://huggingface.co/bilalezafar/CentralBank-BERT) |
-| `bilalezafar/CBDC-BERT`        | Binary classifier: CBDC vs Non-CBDC.                           | Flagging CBDC-related discourse in large corpora.        | [CBDC-BERT](https://huggingface.co/bilalezafar/CBDC-BERT)               |
-| `bilalezafar/CBDC-Stance`      | 3-class stance model (Pro, Wait-and-See, Anti).                | Research on policy stances and discourse monitoring.     | [CBDC-Stance](https://huggingface.co/bilalezafar/CBDC-Stance)           |
-| `bilalezafar/CBDC-Sentiment`   | 3-class sentiment (Positive, Neutral, Negative).               | Tone analysis in central bank communications.            | [CBDC-Sentiment](https://huggingface.co/bilalezafar/CBDC-Sentiment)     |
-| `bilalezafar/CBDC-Type`        | Classifies Retail, Wholesale, General CBDC mentions.           | Distinguishing policy focus (retail vs wholesale).       | [CBDC-Type](https://huggingface.co/bilalezafar/CBDC-Type)               |
-| `bilalezafar/CBDC-Discourse`   | 3-class discourse classifier (Feature, Process, Risk-Benefit). | Structured categorization of CBDC communications.        | [CBDC-Discourse](https://huggingface.co/bilalezafar/CBDC-Discourse)     |
+| `bilalezafar/CentralBank-BERT` | Domain-adaptive masked LM trained on BIS speeches (1996–2024). | Base encoder for CBDC downstream tasks; fill-mask tasks. | [CentralBank-BERT](https://huggingface.co/bilalzafar/CentralBank-BERT) |
+| `bilalezafar/CBDC-BERT`        | Binary classifier: CBDC vs Non-CBDC.                           | Flagging CBDC-related discourse in large corpora.        | [CBDC-BERT](https://huggingface.co/bilalzafar/CBDC-BERT)               |
+| `bilalezafar/CBDC-Stance`      | 3-class stance model (Pro, Wait-and-See, Anti).                | Research on policy stances and discourse monitoring.     | [CBDC-Stance](https://huggingface.co/bilalzafar/CBDC-Stance)           |
+| `bilalezafar/CBDC-Sentiment`   | 3-class sentiment (Positive, Neutral, Negative).               | Tone analysis in central bank communications.            | [CBDC-Sentiment](https://huggingface.co/bilalzafar/CBDC-Sentiment)     |
+| `bilalezafar/CBDC-Type`        | Classifies Retail, Wholesale, General CBDC mentions.           | Distinguishing policy focus (retail vs wholesale).       | [CBDC-Type](https://huggingface.co/bilalzafar/CBDC-Type)               |
+| `bilalezafar/CBDC-Discourse`   | 3-class discourse classifier (Feature, Process, Risk-Benefit). | Structured categorization of CBDC communications.        | [CBDC-Discourse](https://huggingface.co/bilalzafar/CBDC-Discourse)     |
 
 ---
 
