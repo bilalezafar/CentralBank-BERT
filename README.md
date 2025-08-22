@@ -1,7 +1,7 @@
 
 # 📘 Central Bank Digital Currency (CBDC) – NLP Models and Pipelines
 
-This repository contains a suite of **transformer-based models and training pipelines** designed for the analysis of Central Bank Digital Currency (CBDC) discourse. Built on top of a domain-adapted BERT model [CentralBank-BERT](https://huggingface.co/bilalzafar/CentralBank-BERT), these pipelines enable classification of CBDC-related text into multiple dimensions such as **CBDC detection, stance, sentiment, type, and discourse features**. The project covers **end-to-end workflows** including:
+This repository contains a suite of **transformer-based models and training pipelines** designed for the analysis of Central Bank Digital Currency (CBDC) discourse. Built on top of a domain-adapted BERT model [Central Bank BERT](https://huggingface.co/bilalzafar/CentralBank-BERT), these pipelines enable classification of CBDC-related text into multiple dimensions such as **CBDC detection, stance, sentiment, type, and discourse features**. The project covers **end-to-end workflows** including:
 
 * **Data preprocessing** and annotation files,
 * **Fine-tuning pipelines** for each classification task,
