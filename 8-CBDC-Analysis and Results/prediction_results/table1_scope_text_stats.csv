@@ -1,0 +1,12 @@
+Statistic,Value,Mean per year,Min year (value) [year],Max year (value) [year]
+No of speeches mention CBDC,588,65.33,2016 (13) [2016],2022 (110) [2022]
+No of CBDC sentences,"5,376",597.33,2016 (48) [2016],"2022 (1,309) [2022]"
+Unique authors,157,37.67,2016 (11) [2016],2021 (54) [2021]
+Unique countries,57,23.89,2016 (9) [2016],2021 (33) [2021]
+Date range,2016-03-02 — 2024-12-14,,,
+Years covered (distinct),9,,,
+Median year [IQR],2022 [2020–2023],,,
+Sentences per speech (mean),9.14,,,
+Sentences per speech (median),3,,,
+Word length (mean / median / sd),28.6 / 25 / 16.5,,,
+Char length (mean / median / sd),175.2 / 153 / 104.7,,,

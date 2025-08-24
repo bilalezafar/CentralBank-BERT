@@ -1,0 +1,124 @@
+\begin{longtable}{p{3.2cm}p{7.8cm}p{4.5cm}p{1.6cm}p{1.6cm}p{2.0cm}}
+\caption{Comprehensive Descriptive Statistics for CBDC Sentence Predictions.} \label{tab:descriptive_stats} \\
+\toprule\addlinespace[0.25em]
+Panel / Section & Statistic & Value & Count & Share & Notes \\
+\midrule
+\endfirsthead
+\caption[]{Comprehensive Descriptive Statistics for CBDC Sentence Predictions.} \\
+\toprule\addlinespace[0.25em]
+Panel / Section & Statistic & Value & Count & Share & Notes \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\addlinespace[0.25em]\bottomrule
+\endlastfoot
+Panel A. Dataset overview & Observations (rows) & 5376 &  &  &  \\
+Panel A. Dataset overview & Unique sentences & 5329 &  &  &  \\
+Panel A. Dataset overview & Duplicate sentence rows & 93 & 1.7\% &  &  \\
+Panel A. Dataset overview & Unique URLs & 588 &  &  &  \\
+Panel A. Dataset overview & Unique authors & 157 &  &  &  \\
+Panel A. Dataset overview & Unique countries & 57 &  &  &  \\
+Panel A. Dataset overview & Date range & 2016-03-02 — 2024-12-14 &  &  &  \\
+Panel A. Dataset overview & Years covered (distinct) & 9 &  &  &  \\
+Panel A. Dataset overview & Median year [IQR] & 2022 [2020–2023] &  &  &  \\
+Panel A. Dataset overview & Sentences per URL (mean) & 9.14 &  &  &  \\
+Panel A. Dataset overview & Sentences per URL (median) & 3 &  &  &  \\
+Panel A. Dataset overview & Word length (mean / median / sd) & 28.2 / 25 / 16.0 &  &  &  \\
+Panel A. Dataset overview & Char length (mean / median / sd) & 175.2 / 153 / 104.7 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Type: classes (K) & 3 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Type: entropy (bits) & 1.303000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Type: HHI & 0.438000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Type: Retail CBDC & 2758 & 51.3\% &  &  \\
+Panel B. Label distributions (counts; shares) & Type: General/Unspecified & 2212 & 41.1\% &  &  \\
+Panel B. Label distributions (counts; shares) & Type: Wholesale CBDC & 406 & 7.6\% &  &  \\
+Panel B. Label distributions (counts; shares) & Stance: classes (K) & 3 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Stance: entropy (bits) & 1.360000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Stance: HHI & 0.418000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Stance: Pro-CBDC & 2551 & 47.5\% &  &  \\
+Panel B. Label distributions (counts; shares) & Stance: Wait-and-See & 2305 & 42.9\% &  &  \\
+Panel B. Label distributions (counts; shares) & Stance: Anti-CBDC & 520 & 9.7\% &  &  \\
+Panel B. Label distributions (counts; shares) & Sentiment: classes (K) & 3 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Sentiment: entropy (bits) & 1.257000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Sentiment: HHI & 0.469000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Sentiment: neutral & 3216 & 59.8\% &  &  \\
+Panel B. Label distributions (counts; shares) & Sentiment: positive & 1741 & 32.4\% &  &  \\
+Panel B. Label distributions (counts; shares) & Sentiment: negative & 419 & 7.8\% &  &  \\
+Panel B. Label distributions (counts; shares) & Discourse: classes (K) & 3 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Discourse: entropy (bits) & 1.525000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Discourse: HHI & 0.363000 &  &  &  \\
+Panel B. Label distributions (counts; shares) & Discourse: Process & 2543 & 47.3\% &  &  \\
+Panel B. Label distributions (counts; shares) & Discourse: Feature & 1453 & 27.0\% &  &  \\
+Panel B. Label distributions (counts; shares) & Discourse: Risk-Benefit & 1380 & 25.7\% &  &  \\
+Panel C. Score statistics \& low-confidence & Type: mean / sd & 0.980 / 0.069 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Type: min / p10 / median / p90 / max & 0.368 / 0.973 / 0.998 / 0.999 / 0.999 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Type: score by Retail CBDC (mean ± sd) & 0.983 ± 0.062 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Type: score by General/Unspecified (mean ± sd) & 0.976 ± 0.073 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Type: score by Wholesale CBDC (mean ± sd) & 0.973 ± 0.087 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Type: share(score < 0.60) & 1.2\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Type: share(score < 0.80) & 3.3\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Type: share(score < 0.90) & 5.7\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: mean / sd & 0.898 / 0.127 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: min / p10 / median / p90 / max & 0.374 / 0.688 / 0.960 / 0.982 / 0.990 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: score by Pro-CBDC (mean ± sd) & 0.908 ± 0.120 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: score by Wait-and-See (mean ± sd) & 0.894 ± 0.128 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: score by Anti-CBDC (mean ± sd) & 0.870 ± 0.148 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: share(score < 0.60) & 6.2\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: share(score < 0.80) & 16.9\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Stance: share(score < 0.90) & 28.3\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: mean / sd & 0.916 / 0.113 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: min / p10 / median / p90 / max & 0.430 / 0.739 / 0.969 / 0.985 / 0.991 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: score by neutral (mean ± sd) & 0.924 ± 0.107 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: score by positive (mean ± sd) & 0.896 ± 0.121 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: score by negative (mean ± sd) & 0.932 ± 0.106 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: share(score < 0.60) & 3.9\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: share(score < 0.80) & 13.6\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Sentiment: share(score < 0.90) & 23.6\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: mean / sd & 0.986 / 0.058 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: min / p10 / median / p90 / max & 0.414 / 0.992 / 0.999 / 0.999 / 0.999 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: score by Process (mean ± sd) & 0.988 ± 0.056 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: score by Feature (mean ± sd) & 0.989 ± 0.050 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: score by Risk-Benefit (mean ± sd) & 0.981 ± 0.067 &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: share(score < 0.60) & 0.7\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: share(score < 0.80) & 2.5\% &  &  &  \\
+Panel C. Score statistics \& low-confidence & Discourse: share(score < 0.90) & 3.8\% &  &  &  \\
+Panel D. Time coverage & Share of observations in 2020s & 86.1\% &  &  &  \\
+Panel D. Time coverage & Share of observations in 2010s & 13.9\% &  &  &  \\
+Panel D. Time coverage & Share of observations pre-2010 & 0.0\% &  &  &  \\
+Panel D. Time coverage & Most recent year in data & 2024 &  &  &  \\
+Panel D. Time coverage & Share of observations in 2024 & 15.6\% &  &  &  \\
+Panel E. Cross-model associations & Cramér’s V: Type × Discourse & 0.224000 &  &  &  \\
+Panel E. Cross-model associations & Mutual information (nats): Type × Discourse & 0.053000 &  &  &  \\
+Panel E. Cross-model associations & Cramér’s V: Type × Stance & 0.161000 &  &  &  \\
+Panel E. Cross-model associations & Mutual information (nats): Type × Stance & 0.027000 &  &  &  \\
+Panel E. Cross-model associations & Cramér’s V: Stance × Sentiment & 0.637000 &  &  &  \\
+Panel E. Cross-model associations & Mutual information (nats): Stance × Sentiment & 0.320000 &  &  &  \\
+Panel E. Cross-model associations & Cramér’s V: Discourse × Sentiment & 0.375000 &  &  &  \\
+Panel E. Cross-model associations & Mutual information (nats): Discourse × Sentiment & 0.133000 &  &  &  \\
+Panel E. Cross-model associations & Spearman ρ (scores): Type × Stance & 0.038000 &  &  &  \\
+Panel E. Cross-model associations & Spearman ρ (scores): Type × Sentiment & -0.013000 &  &  &  \\
+Panel E. Cross-model associations & Spearman ρ (scores): Type × Discourse & 0.119000 &  &  &  \\
+Panel E. Cross-model associations & Spearman ρ (scores): Stance × Sentiment & 0.269000 &  &  &  \\
+Panel E. Cross-model associations & Spearman ρ (scores): Stance × Discourse & 0.070000 &  &  &  \\
+Panel E. Cross-model associations & Spearman ρ (scores): Sentiment × Discourse & 0.064000 &  &  &  \\
+Panel F. Key entities (Top-10 compact) & Top-10 countries (count) & Germany (1,018); Euro Area (1,011); US (465); France (416); UK (296); Italy
+(275); Spain (179); Japan (175); India (155); Hong Kong (136) &  &  &  \\
+Panel F. Key entities (Top-10 compact) & Top-10 authors (count) & Fabio Panetta (854); Burkhard Balz (478); Joachim Nagel (371); François Villeroy
+de Galhau (208); Denis Beau (191); Piero Cipollone (161); Pablo Hernández de Cos
+(160); Jens Weidmann (132); Jon Cunliffe (131); Lael Brainard (122) &  &  &  \\
+Panel G. Missingness & Missing share: date & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: country & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: author & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: url & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: cbdc\_sentence & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Type\_Label & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Stance\_Label & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Sentiment\_Label & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Discourse\_Label & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Type\_Score & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Stance\_Score & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Sentiment\_Score & 0.0\% &  &  &  \\
+Panel G. Missingness & Missing share: Discourse\_Score & 0.0\% &  &  &  \\
+\end{longtable}

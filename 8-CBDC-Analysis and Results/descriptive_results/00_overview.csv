@@ -1,0 +1,10 @@
+metric,value
+rows (sentences),5376
+unique URLs (speeches),588
+date coverage (min→max),2016-03-02 → 2024-12-14
+unique authors,157
+unique affiliations,59
+unique positions,52
+unique countries,57
+median tokens / sentence,25
+p90 tokens / sentence,45
