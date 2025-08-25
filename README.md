@@ -48,8 +48,6 @@ If you use this repository or models in your research, please cite as:
 
 **Zafar, M. B. (2025). *CentralBank-BERT: Machine Learning Evidence on Central Bank Digital Currency Discourse*. SSRN. [https://papers.ssrn.com/abstract=5404456](https://papers.ssrn.com/abstract=5404456)**
 
-**BibTeX**
-
 ```bibtex
 @article{zafar2025centralbankbert,
   title={CentralBank-BERT: Machine Learning Evidence on Central Bank Digital Currency Discourse},
