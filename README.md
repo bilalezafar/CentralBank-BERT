@@ -26,6 +26,7 @@ The goal is to provide a reproducible and extensible resource for **policy resea
 | `8-CBDC-Analysis and Results` | End-to-end notebook (**CBDC Analysis and Results.ipynb**) that reads **cbdc-dataset-final.csv**, runs all CBDC classifiers to create **cbdc-dataset-predictions.csv**, and generates all manuscript tables and figures; outputs saved to **prediction\_results/** and **descriptive\_results/**. |
 
 ---
+
 ## 🤗 Hugging Face Models
 
 | Model                          | Purpose                                                             | Intended Use                                                                         | Model Link                                                              |
@@ -44,14 +45,6 @@ The goal is to provide a reproducible and extensible resource for **policy resea
 ## 📖 Citation  
 
 If you use this repository or models in your research, please cite as:  
-
-Here’s a clean, **standardized citation section** in both APA and BibTeX format so people can easily reference your work from SSRN:
-
----
-
-## Citation
-
-If you use this model, please cite as:
 
 **Zafar, M. B. (2025). *CentralBank-BERT: Machine Learning Evidence on Central Bank Digital Currency Discourse*. SSRN. [https://papers.ssrn.com/abstract=5404456](https://papers.ssrn.com/abstract=5404456)**
 
