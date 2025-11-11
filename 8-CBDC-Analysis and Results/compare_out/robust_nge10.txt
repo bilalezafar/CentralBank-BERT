@@ -1,0 +1,4 @@
+N=14
+Pearson 0.842
+Spearman 0.824
+Kendall 0.648
