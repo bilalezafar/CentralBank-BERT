@@ -46,14 +46,14 @@ The goal is to provide a reproducible and extensible resource for **policy resea
 
 If you use this repository or models in your research, please cite as:  
 
-**Zafar, M. B. (2025). *CentralBank-BERT: Machine Learning Evidence on Central Bank Digital Currency Discourse*. SSRN. [https://papers.ssrn.com/abstract=5404456](https://papers.ssrn.com/abstract=5404456)**
+**Zafar, M. B. (2026). CentralBank-BERT: Machine learning evidence on central bank digital currency discourse. *Journal of Economics and Business*. [https://doi.org/10.1016/j.jeconbus.2026.106300](https://doi.org/10.1016/j.jeconbus.2026.106300)**
 
 ```bibtex
 @article{zafar2025centralbankbert,
-  title={CentralBank-BERT: Machine Learning Evidence on Central Bank Digital Currency Discourse},
+  title={CentralBank-BERT: Machine learning evidence on central bank digital currency discourse},
   author={Zafar, Muhammad Bilal},
-  year={2025},
-  journal={SSRN Electronic Journal},
-  url={https://papers.ssrn.com/abstract=5404456}
+  year={2026},
+  journal={Journal of Economics and Business},
+  url={https://doi.org/10.1016/j.jeconbus.2026.106300}
 }
 ```
